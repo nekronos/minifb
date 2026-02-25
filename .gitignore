@@ -33,3 +33,5 @@ tests/dos/tools/djgpp
 tests/dos/tools/dosbox-x
 tests/dos/tools/gdb
 *.bak
+result
+result/*

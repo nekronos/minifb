@@ -285,9 +285,7 @@ endif()
 
 # Library
 #--------------------------------------
-add_library(minifb STATIC
-    ${SrcLib}
-)
+add_library(minifb ${SrcLib})
 add_library(minifb::minifb ALIAS minifb)
 
 # Link
